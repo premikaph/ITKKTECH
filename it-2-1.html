@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKTECH :: IT 2/2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a2a6c;
+            --accent-color: #f2a154;
+            --bg-color: #f0f2f5;
+        }
+
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .header-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .yearbook-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        /* เลขลำดับมุมการ์ด */
+        .number-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: var(--primary-color);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+            z-index: 2;
+        }
+
+        .photo-box {
+            width: 100%;
+            height: 260px;
+            background: #eee;
+        }
+
+        .photo-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .details {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .name {
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+
+        .quote {
+            font-size: 0.85rem;
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header-section">
+    <h1>นักเรียนแผนกวิชาเทคโนโลยีสารสนเทศ</h1>
+    <p>ห้อง ปวช.2/1 จำนวน 20 คน</p>
+</div>
+
+<div class="yearbook-grid">
+    <div class="card">
+        <div class="number-badge">1</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300" alt="Student Photo">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">2</div>
+        <div class="photo-box"><img src="https://via.placeholder.com/250x300" alt="Student Photo"></div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">3</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">4</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">5</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">6</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">7</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">8</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">9</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">10</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">11</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">12</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">13</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">14</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">15</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">16</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">17</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">18</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">19</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="number-badge">20</div>
+        <div class="photo-box">
+            <img src="https://via.placeholder.com/250x300">
+        </div>
+        <div class="details">
+            <div class="name">ชื่อ-นามสกุล</div>
+            <div class="quote">คติประจำใจ</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
